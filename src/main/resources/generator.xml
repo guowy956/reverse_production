@@ -29,8 +29,11 @@
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.cn.mapper"  targetProject="src">
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
-        <table schema="UserRole" tableName="user_role" domainObjectName="UserRole" enableCountByExample="false" enableUpdateByExample="false"
-               enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
+        <table schema="UserRole" tableName="user_role" domainObjectName="UserRole">
         </table>
+
+        <!--<table schema="UserRole" tableName="user_role" domainObjectName="UserRole" enableCountByExample="false" enableUpdateByExample="false"-->
+               <!--enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">-->
+        <!--</table>-->
     </context>
 </generatorConfiguration>
